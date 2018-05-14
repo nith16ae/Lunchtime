@@ -1,0 +1,101 @@
+/* LoginPage CSS */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/*time buttons */
+.timeButton {
+    margin-top: 5%;
+    alignment: center;
+    margin-bottom: 5%;
+    margin-right: 9%;
+
+}
+.timeButton button {
+    height: 120px;
+    width: 200px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #d5cff5;
+    margin-bottom: 2%;
+
+}
+#time1 {
+    background-color: #d5cff5;
+
+}
+#time1.chosen {
+    background-color: #5ea86f;
+}
+#time2 {
+    background-color: #d5cff5;
+}
+#time2.chosen {
+    background-color: #5ea86f;
+}
+#time3 {
+    background-color: #d5cff5;
+}
+#time3.chosen {
+    background-color: #5ea86f;
+}
+select {
+    float: left;
+    margin-left: -27%;
+    margin-top: -2%;
+}
+
+#whoPopup {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #ffffff; border: 1px solid black;
+    float: right;
+    margin-left: 12%;
+    margin-top: 8%;
+    position: absolute;
+    z-index: 1;
+    padding: 5%;
+    text-align: left;
+    cursor: pointer;
+    }
+#whoPopup :hover
+#closePopup {
+    background-color: #d5cff5;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+.AppDiv {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 35%;
+    background: #ffffff; border: 1px solid black;
+    text-align: right;
+    text-decoration: none;
+    font-size: 17px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.topText h1 {
+    font-weight: bold;
+    font-size: 150%;
+}
+.topText p {
+    margin-top: -2%;
+}
+.topText img {
+    margin-top: -4.3%;
+    margin-right: 6.5%;
+}
+.topText {
+    margin-right: 10%;
+}
+
+#time {
+    float: left;
+    margin-left: 7%;
+    font-size: 150%;
+    margin-top: -0.8%;
+    font-weight: bold;
+}
